@@ -1,0 +1,104 @@
+{
+  "web": {
+    "slug": "flash",
+    "repository": "https://github.com/profondosud/rivela-flash",
+    "pages_url": "https://profondosud.github.io/rivela-flash/",
+    "pages_status": "built",
+    "home": {
+      "url": "https://profondosud.github.io/rivela-flash/",
+      "status": 200,
+      "bytes": 7739
+    },
+    "assets": [
+      {
+        "url": "https://profondosud.github.io/rivela-flash/styles.css",
+        "status": 200,
+        "bytes": 15713
+      },
+      {
+        "url": "https://profondosud.github.io/rivela-flash/images/flash-01.webp",
+        "status": 200,
+        "bytes": 108684
+      },
+      {
+        "url": "https://profondosud.github.io/rivela-flash/images/flash-02.webp",
+        "status": 200,
+        "bytes": 116834
+      },
+      {
+        "url": "https://profondosud.github.io/rivela-flash/images/flash-03.webp",
+        "status": 200,
+        "bytes": 115716
+      },
+      {
+        "url": "https://profondosud.github.io/rivela-flash/images/flash-04.webp",
+        "status": 200,
+        "bytes": 106616
+      }
+    ],
+    "cliente": "Flash!"
+  },
+  "browser": {
+    "slug": "flash",
+    "sizes": [
+      {
+        "brokenImages": [],
+        "client": 305,
+        "fontStatus": "loaded",
+        "overflow": [],
+        "scroll": 305,
+        "viewport": 320
+      },
+      {
+        "brokenImages": [],
+        "client": 375,
+        "fontStatus": "loaded",
+        "overflow": [],
+        "scroll": 375,
+        "viewport": 390
+      },
+      {
+        "brokenImages": [],
+        "client": 753,
+        "fontStatus": "loaded",
+        "overflow": [],
+        "scroll": 753,
+        "viewport": 768
+      },
+      {
+        "brokenImages": [],
+        "client": 1265,
+        "fontStatus": "loaded",
+        "overflow": [],
+        "scroll": 1265,
+        "viewport": 1280
+      }
+    ]
+  },
+  "mobile": {
+    "slug": "flash",
+    "focus": {
+      "focusVisible": true,
+      "outline": "solid",
+      "tag": "A"
+    },
+    "contact": {
+      "hash": "#visita",
+      "mobileAction": [
+        {
+          "height": 52,
+          "href": "tel:+34963355319",
+          "visible": true
+        }
+      ],
+      "overflow": false,
+      "phone": [
+        "tel:+34963355319",
+        "tel:+34963355319",
+        "tel:+34963355319",
+        "tel:+34963355319",
+        "tel:+34963355319"
+      ]
+    }
+  }
+}

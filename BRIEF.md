@@ -10,7 +10,8 @@ Nessun contatto inviato all'attività. Prezzi esclusi. Dichiarazione di demo non
 
 ## Identità
 
-Proposta Rivela: carbone, legno chiaro e verde bottiglia, ispirati a materiali e colori fotografati. Palette proposta, non identità ufficiale certificata.
+Proposta Rivela: carbone, legno chiaro e verde bottiglia, ispirati a materiali e colori fotografati. Palette proposta,
+non identità ufficiale certificata.
 
 Palette proposta: {"paper": "#f4eddf", "ink": "#202725", "accent": "#315246", "soft": "#e6dccb", "night": "#192d27", "onAccent": "#fff7e9"}.
 Font Google Fonts locali: Fraunces (titoli), DM Sans (testi). Licenze SIL OFL in `fonts/`.
@@ -35,22 +36,25 @@ Testi originali riformulati sui soli servizi supportati dalle fonti; non recensi
 
 ## Fotografie e diritti
 
-- `images/flash-01.webp`: [originale](https://salirenvalencia.com/wp-content/uploads/2019/04/DSC02508.jpg), fonte [pagina](https://salirenvalencia.com/hazplanes/flash/). Da verificare. Solo copia locale, nessuna licenza di riutilizzo accertata.
-- `images/flash-02.webp`: [originale](https://salirenvalencia.com/wp-content/uploads/2019/04/flash.jpg), fonte [pagina](https://salirenvalencia.com/hazplanes/flash/). Da verificare. Solo copia locale, nessuna licenza di riutilizzo accertata.
-- `images/flash-03.webp`: [originale](https://salirenvalencia.com/wp-content/uploads/2019/04/DSC02507DS.jpg), fonte [pagina](https://salirenvalencia.com/hazplanes/flash/). Da verificare. Solo copia locale, nessuna licenza di riutilizzo accertata.
-- `images/flash-04.webp`: [originale](https://salirenvalencia.com/wp-content/uploads/2019/04/DSC02500DS.jpg), fonte [pagina](https://salirenvalencia.com/hazplanes/flash/). Da verificare. Solo copia locale, nessuna licenza di riutilizzo accertata.
+- `images/flash-01.webp`: [risorsa originale](https://salirenvalencia.com/wp-content/uploads/2019/04/DSC02508.jpg), [pagina di provenienza](https://salirenvalencia.com/hazplanes/flash/). Autore e licenza non verificati autonomamente; consenso dei titolari per le sei demo confermato da Marco in chat il 02/11/2026. Uso definitivo da concordare con i clienti.
+- `images/flash-02.webp`: [risorsa originale](https://salirenvalencia.com/wp-content/uploads/2019/04/flash.jpg), [pagina di provenienza](https://salirenvalencia.com/hazplanes/flash/). Autore e licenza non verificati autonomamente; consenso dei titolari per le sei demo confermato da Marco in chat il 02/11/2026. Uso definitivo da concordare con i clienti.
+- `images/flash-03.webp`: [risorsa originale](https://salirenvalencia.com/wp-content/uploads/2019/04/DSC02507DS.jpg), [pagina di provenienza](https://salirenvalencia.com/hazplanes/flash/). Autore e licenza non verificati autonomamente; consenso dei titolari per le sei demo confermato da Marco in chat il 02/11/2026. Uso definitivo da concordare con i clienti.
+- `images/flash-04.webp`: [risorsa originale](https://salirenvalencia.com/wp-content/uploads/2019/04/DSC02500DS.jpg), [pagina di provenienza](https://salirenvalencia.com/hazplanes/flash/). Autore e licenza non verificati autonomamente; consenso dei titolari per le sei demo confermato da Marco in chat il 02/11/2026. Uso definitivo da concordare con i clienti.
 
 La disponibilità pubblica non costituisce una licenza di riutilizzo. Non è stata accertata
-una licenza autonoma. Marco ha confermato in chat il consenso dei titolari per le sei demo pubbliche il 2 novembre 2026. Licenze e liberatorie non verificate autonomamente da Rivela; il consenso non copre una pubblicazione definitiva.
+una licenza autonoma. Marco ha confermato in chat il consenso dei titolari per le sei demo pubbliche il 2 novembre 2026.
+Licenze e liberatorie non verificate autonomamente da Rivela; il consenso non copre una pubblicazione definitiva.
 Logo e fotografie presi dal web vanno sostituiti con file forniti dal cliente prima di qualunque
 pubblicazione definitiva, verificando i diritti. Questa nota non autorizza la demo pubblica.
 
 ## Repository e demo
 
-Nome previsto: `profondosud/rivela-flash`.
-Pubblicazione autorizzata da Marco; creazione repository e attivazione Pages in corso.
-URL Pages solo previsto, non attivo né verificato: https://profondosud.github.io/rivela-flash/.
-Descrizione prevista: Demo Rivela · Flash! (Valencia) · propuesta independiente, no oficial
+- Repository pubblico creato per questo incarico: [https://github.com/profondosud/rivela-flash](https://github.com/profondosud/rivela-flash).
+- Demo Pages attiva: [https://profondosud.github.io/rivela-flash/](https://profondosud.github.io/rivela-flash/).
+- Sorgente: branch `main`, cartella root, `.nojekyll`.
+- GitHub Pages: stato `built`; pagina, CSS e tutte le foto della demo rispondono HTTP 200.
+- Demo aperta e verificata nel browser il 2 novembre 2026.
+
 
 ## Da verificare
 
@@ -67,6 +71,12 @@ Controlli statici superati: immagini e font locali presenti, ancore valide, H1 u
 assenza di script/moduli/embed, regole focus, reduced motion e safe-area presenti.
 Contrasti calcolati sulle palette: {"testo": 13.08, "pulsanti": 8.13, "sezioni scure": 12.47, "titoli accento": 7.43}.
 Revisione visiva delle fotografie eseguita; nessun test visivo della pagina locale dichiarato.
-Il browser integrato non raggiunge il server locale: la verifica visiva responsive resta da fare sulla demo pubblicata.
+Il server locale non era raggiungibile dal browser integrato; i controlli seguenti sono stati eseguiti sulle demo Pages
+pubblicate.
 
-Verifica della demo pubblicata da completare dopo attivazione Pages.
+Verifica pubblica completata: ispezione delle hero su desktop e smartphone;
+misure del layout a 320, 390, 768 e 1280 px senza overflow orizzontale;
+navigazione verso `#visita`, focus da tastiera visibile e CTA mobile di 52 px verificati.
+Foto e CSS serviti senza errori; font locali caricati. Non sono state effettuate chiamate, prenotazioni o messaggi.
+Le fonti esterne possono cambiare; non è stato eseguito un audit completo con lettore di schermo
+né un test su dispositivi fisici iOS/Android.
